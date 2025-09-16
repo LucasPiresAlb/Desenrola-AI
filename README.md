@@ -94,14 +94,6 @@ npm test
 
 ---
 
-## 🤝 Contribuidores
-
-Este projeto foi desenvolvido com dedicação pela seguinte equipe:
-
-### 🤝 Contribuidores
-
-Este projeto foi desenvolvido com dedicação pela seguinte equipe:
-
 ### 🤝 Contribuidores
 
 Este projeto foi desenvolvido com dedicação pela seguinte equipe:
