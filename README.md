@@ -14,7 +14,7 @@ API da plataforma "Desenrola Aí", que conecta prestadores de serviços e client
 
 <p align="center">
   <em>Veja a API funcionando no Postman:</em><br><br>
-  <img src="https://imgur.com/UrHfDgs" alt="Demonstração da API no Postman" width="80%">
+  <img src="https://github.com/LucasPiresAlb/Desenrola-A-/blob/main/Anima%C3%A7%C3%A3o.gif?raw=true" alt="Demonstração da API no Postman" width="80%">
 </p>
 
 ---
