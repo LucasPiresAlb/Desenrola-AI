@@ -112,7 +112,7 @@ Este projeto foi desenvolvido com dedicação pela seguinte equipe:
 | **Cezarnildo Moreira da Silva** | Documentação e Testes   | [Link para o Perfil](https://github.com/usuario-colega1) |
 | **José Claudecir Silva de Lima** | Desenvolvedor Backend   | [Link para o Perfil](https://github.com/klaudecy) |
 | **Francisco Riomar Barros Filho** | Testes e Qualidade      | [Link para o Perfil](https://github.com/riomarfilho) |
-| **Francisco Rodrigues de Oliveira Lima** | Desenvolvedor Backend   | [Link para o Perfil]((https://github.com/zederodrigues)) |
+| **Francisco Rodrigues de Oliveira Lima** | Desenvolvedor Backend   | [Link para o Perfil](https://github.com/zederodrigues) |
 
 
 ---
