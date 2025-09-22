@@ -89,7 +89,7 @@ Siga os passos abaixo para rodar o projeto completo em sua máquina.
 
   ```bash
   # 1. Clone o repositório
-  git clone (https://github.com/LucasPiresAlb/Desenrola-AI.git)
+  [git clone](https://github.com/LucasPiresAlb/Desenrola-AI.git)
   
   # 2. Navegue para a pasta do projeto clonado
   cd Desenrola-AI
