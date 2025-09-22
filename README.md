@@ -9,8 +9,8 @@ API da plataforma "Desenrola Aí", que conecta prestadores de serviços e client
 </p>
 
 <p align="center">
-  <em>Veja a API funcionando no Postman:</em><br><br>
-  <img src="https://github.com/LucasPiresAlb/Desenrola-AI/blob/main/unknown_2025.09.22-18.15_1.gif?raw=true" alt="Demonstração da API no Postman e Discord" width="85%">
+  <em>Veja a API funcionando no Postman e Discord:</em><br><br>
+  <img src="https://github.com/LucasPiresAlb/Desenrola-AI/blob/main/desenrola%20ai.gif?raw=true" alt="Demonstração da API no Postman e Discord" width="85%">
 </p>
 
 ---
