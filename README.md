@@ -67,12 +67,14 @@ A arquitetura do projeto é baseada na comunicação entre múltiplos sistemas d
 
 ![Diagrama de Arquitetura Atualizado](https://github.com/LucasPiresAlb/Desenrola-AI/blob/main/diagrama.png?raw=true)
 
-O fluxo de solicitação de serviço segue os seguintes passos:
-1.  O **Cliente (Postman)** envia uma requisição para a **API Principal** com os dados do serviço, incluindo o endereço.
-2.  A **API Principal** chama a **API Pública de Geocodificação** para obter as coordenadas do endereço.
-3.  Com as coordenadas, a API gera um link do Google Maps.
-4.  A **API Principal** envia todos os detalhes, incluindo o link do mapa, para a **API de Notificação Simulada**.
-5.  A **API Principal** retorna uma resposta de sucesso para o Cliente, contendo o link do mapa.
+O fluxo de solicitação de serviço, ilustrado no diagrama acima, segue os seguintes passos:
+
+1.  **Início (Requisição do Cliente):** O processo começa quando o **Cliente** (ex: Postman) envia uma requisição `POST` para a **API Principal**, contendo os detalhes do serviço e o endereço para atendimento.
+2.  **Validação:** A **API Principal** recebe a requisição e realiza uma **validação** inicial para garantir que o prestador solicitado existe e que o endereço foi fornecido. Se os dados forem inválidos, ela retorna um erro (`400` ou `404`) e o fluxo é encerrado.
+3.  **Integração 1 (Geocodificação):** Com os dados válidos, a API Principal chama a **API Pública de Geocodificação** (`geocode.maps.co`), enviando o endereço do cliente para ser convertido em coordenadas geográficas.
+4.  **Processamento e Enriquecimento:** A API de Geocodificação retorna as coordenadas (latitude e longitude). Em caso de sucesso, a **API Principal** usa esses dados para gerar um **link clicável do Google Maps**. Se a consulta falhar, o link é definido como "Não Disponível" para não interromper o fluxo.
+5.  **Integração 2 (Notificação):** A **API Principal** formata uma mensagem completa com todos os detalhes do serviço, incluindo o link do mapa, e a envia para a **API do Discord através de um Webhook**.
+6.  **Confirmação Final:** Após notificar o prestador no Discord, a **API Principal** retorna uma resposta de sucesso (`200 OK`) para o **Cliente** original, incluindo o link do mapa para confirmação imediata.
 
 ---
 
