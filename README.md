@@ -148,7 +148,7 @@ Este projeto foi desenvolvido com dedicação pela seguinte equipe:
 | Nome                             | Papel no Projeto      | Perfil no GitHub                                       |
 | -------------------------------- | --------------------- | ------------------------------------------------------ |
 | **Lucas Pires Albuquerque** | Desenvolvedor Backend | [Link para o Perfil](https://github.com/LucasPiresAlb)   |
-| **Cezarnildo Moreira da Silva** | Documentação e Testes | [Link para o Perfil](https://github.com/usuario-colega1) |
+| **Cezarnildo Moreira da Silva** | Documentação e Testes | [Link para o Perfil](https://github.com/cezar-moreira) |
 | **José Claudecir Silva de Lima** | Desenvolvedor Backend | [Link para o Perfil](https://github.com/claudecirlima)      |
 | **Francisco Riomar Barros Filho**| Testes e Qualidade    | [Link para o Perfil](https://github.com/riomarfilho)   |
 | **Francisco Rodrigues de Oliveira Lima** | Desenvolvedor Backend | [Link para o Perfil](https://github.com/zederodrigues) |
