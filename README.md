@@ -1,6 +1,14 @@
 # Desenrola-AI
 
-API da plataforma "Desenrola Aí", que conecta prestadores de serviços e clientes em Fortaleza. Projeto acadêmico de Integração de Sistemas feito em Node.js, demonstrando a comunicação entre duas APIs distintas (principal e notificação). Possui testes automatizados, documentação e coleção do Postman.
+O Desenrola Aí foi criado como projeto para a disciplina de Técnicas de Integração de Sistemas (N703). O diferencial deste projeto é a demonstração de uma integração múltipla com APIs públicas reais para resolver um problema prático: conectar prestadores de serviço e clientes em Fortaleza de forma eficiente.
+
+A arquitetura da solução orquestra a comunicação com dois serviços externos distintos:
+
+Uma API de Geocodificação (geocode.maps.co) que transforma o endereço do cliente em coordenadas geográficas, gerando um link de mapa para facilitar a logística do prestador.
+
+A API do Discord (via Webhooks) que envia notificações em tempo real para um canal específico, garantindo que o prestador seja informado sobre a nova solicitação de serviço instantaneamente.
+
+Essa abordagem com múltiplas integrações demonstra de forma robusta e prática os conceitos de comunicação entre sistemas heterogêneos.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Concluído-4CAF50?style=for-the-badge" alt="Status: Concluído">
