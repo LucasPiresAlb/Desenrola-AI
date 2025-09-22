@@ -27,13 +27,13 @@ Essa abordagem com múltiplas integrações demonstra de forma robusta e prátic
 
 O Desenrola Aí foi criado como projeto para a disciplina de Técnicas de Integração de Sistemas (N703). A aplicação simula uma plataforma que conecta prestadores de serviços autônomos e clientes em Fortaleza, com um foco prático na resolução de problemas de comunicação e logística através da integração de sistemas.
 
-Além dos desafios técnicos, o projeto está profundamente alinhado com o Objetivo de Desenvolvimento Sustentável 11 (ODS 11) - Cidades e Comunidades Sustentáveis, contribuindo para as metas de tornar Fortaleza uma cidade mais inclusiva, resiliente e sustentável das seguintes formas:
+Além dos desafios técnicos, o projeto está profundamente alinhado com o Objetivo de Desenvolvimento Sustentável 11 (ODS 11) - Cidades e Comunidades Sustentáveis. A plataforma contribui para este objetivo ao:
 
-Resiliência e Inclusão Econômica (Metas 11.3 e 11.a): Ao criar um canal digital de baixo custo, a plataforma promove a inclusão econômica e digital de trabalhadores autônomos e pequenos empreendedores locais. Isso fortalece a economia dos bairros, gera renda e faz com que o capital circule dentro da própria comunidade, aumentando a resiliência econômica local contra crises externas.
+Promover a Resiliência e Inclusão Econômica: Ao criar um canal digital de baixo custo, a plataforma impulsiona a inclusão econômica de trabalhadores autônomos e pequenos empreendedores locais. Isso fortalece a economia dos bairros, gera renda e faz com que o capital circule dentro da própria comunidade, tornando-a mais forte e resiliente.
 
-Sustentabilidade e Consumo Local (Meta 11.6): A plataforma incentiva que os moradores contratem serviços de profissionais que estão geograficamente próximos. Essa prática de consumo local reduz a necessidade de grandes deslocamentos pela cidade, o que contribui para a diminuição do trânsito, do tempo de viagem e da pegada de carbono associada à prestação de serviços.
+Incentivar a Sustentabilidade e o Consumo Local: A ferramenta incentiva que os moradores contratem serviços de profissionais que estão geograficamente próximos. Essa prática reduz a necessidade de grandes deslocamentos pela cidade, o que contribui para a diminuição do trânsito e da pegada de carbono associada à prestação de serviços.
 
-Fortalecimento dos Laços Comunitários: Ao facilitar a interação e o comércio entre vizinhos e moradores do mesmo bairro, o "Desenrola Aí" ajuda a fortalecer o senso de comunidade e a confiança, pilares essenciais para cidades mais seguras e coesas.
+Fortalecer os Laços Comunitários: Ao facilitar a interação e o comércio entre vizinhos, o "Desenrola Aí" ajuda a fortalecer o senso de comunidade e a confiança, que são pilares essenciais para cidades mais seguras e coesas.
 
 Dessa forma, a API não é apenas uma solução de software, mas uma ferramenta com potencial para gerar impacto social positivo, promovendo um desenvolvimento urbano mais justo e sustentável para a cidade de Fortaleza.
 
