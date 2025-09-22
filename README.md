@@ -61,7 +61,7 @@ Essa abordagem demonstra uma arquitetura robusta e cumpre com excelência os obj
 
 A arquitetura do projeto é baseada na comunicação entre múltiplos sistemas distintos para resolver um problema de negócio.
 
-![Diagrama de Arquitetura Atualizado](https://i.imgur.com/5g8z6tQ.png)
+![Diagrama de Arquitetura Atualizado](https://github.com/LucasPiresAlb/Desenrola-AI/blob/main/diagrama.png?raw=true)
 
 O fluxo de solicitação de serviço segue os seguintes passos:
 1.  O **Cliente (Postman)** envia uma requisição para a **API Principal** com os dados do serviço, incluindo o endereço.
