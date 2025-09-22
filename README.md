@@ -25,13 +25,17 @@ Essa abordagem com múltiplas integrações demonstra de forma robusta e prátic
 
 ## 🎯 Sobre o Projeto
 
-O **Desenrola Aí** foi criado como projeto para a disciplina de **Técnicas de Integração de Sistemas (N703)**. A aplicação simula uma plataforma que conecta prestadores de serviços e clientes em Fortaleza, com um foco prático na resolução de problemas de comunicação e logística através da integração de sistemas.
+O Desenrola Aí foi criado como projeto para a disciplina de Técnicas de Integração de Sistemas (N703). A aplicação simula uma plataforma que conecta prestadores de serviços autônomos e clientes em Fortaleza, com um foco prático na resolução de problemas de comunicação e logística através da integração de sistemas.
 
-O projeto vai além do requisito básico, implementando uma **integração dupla**:
-1.  **Com uma API Pública Externa:** Para geocodificação de endereços em tempo real.
-2.  **Com uma API Simulada Interna:** Para o disparo de notificações de serviço.
+Além dos desafios técnicos, o projeto está profundamente alinhado com o Objetivo de Desenvolvimento Sustentável 11 (ODS 11) - Cidades e Comunidades Sustentáveis, contribuindo para as metas de tornar Fortaleza uma cidade mais inclusiva, resiliente e sustentável das seguintes formas:
 
-Essa abordagem demonstra uma arquitetura robusta e cumpre com excelência os objetivos da disciplina.
+Resiliência e Inclusão Econômica (Metas 11.3 e 11.a): Ao criar um canal digital de baixo custo, a plataforma promove a inclusão econômica e digital de trabalhadores autônomos e pequenos empreendedores locais. Isso fortalece a economia dos bairros, gera renda e faz com que o capital circule dentro da própria comunidade, aumentando a resiliência econômica local contra crises externas.
+
+Sustentabilidade e Consumo Local (Meta 11.6): A plataforma incentiva que os moradores contratem serviços de profissionais que estão geograficamente próximos. Essa prática de consumo local reduz a necessidade de grandes deslocamentos pela cidade, o que contribui para a diminuição do trânsito, do tempo de viagem e da pegada de carbono associada à prestação de serviços.
+
+Fortalecimento dos Laços Comunitários: Ao facilitar a interação e o comércio entre vizinhos e moradores do mesmo bairro, o "Desenrola Aí" ajuda a fortalecer o senso de comunidade e a confiança, pilares essenciais para cidades mais seguras e coesas.
+
+Dessa forma, a API não é apenas uma solução de software, mas uma ferramenta com potencial para gerar impacto social positivo, promovendo um desenvolvimento urbano mais justo e sustentável para a cidade de Fortaleza.
 
 ---
 
