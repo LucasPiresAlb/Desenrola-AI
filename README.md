@@ -66,31 +66,7 @@ Dessa forma, a API não é apenas uma solução de software, mas uma ferramenta 
 A arquitetura do projeto é baseada na comunicação entre múltiplos sistemas distintos para resolver um problema de negócio.
 ## 🌊 Fluxo da Solicitação de Serviço (Horizontal)
 
-Entenda o passo a passo de como uma solicitação de serviço é processada e notificada:
-
-```mermaid
-flowchart TD
-    A[Cliente: Faz POST] --> B{API Principal: Recebe Requisição};
-
-    B --> C{Validação};
-    C -- Inválido --> D[Retorna 400/404 Erro];
-    C -- Válido --> E[Prepara Endereço];
-
-    E --> F[Chama API de Geocodificação];
-    F --> G{Retorna Coordenadas};
-
-    G -- Sucesso --> H[Gera Link do Google Maps];
-    G -- Falha --> I[Link = "Não disponível"];
-
-    H --> J[Prepara Notificação];
-    I --> J;
-
-    J --> K[Chama API de Notificação];
-    K --> L[Notificação Recebida];
-
-    L --> M[Envia 200 OK ao Cliente];
-    M --> N[Cliente: Recebe Confirmação];
-```
+Entenda o passo a passo de como uma solicitação de serviço é processada e notificada: 
 
 ![Diagrama de Arquitetura Atualizado](https://github.com/LucasPiresAlb/Desenrola-AI/blob/main/diagrama.png?raw=true)
 
