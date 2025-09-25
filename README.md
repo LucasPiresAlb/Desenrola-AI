@@ -69,7 +69,7 @@ A arquitetura do projeto é baseada na comunicação entre múltiplos sistemas d
 Entenda o passo a passo de como uma solicitação de serviço é processada e notificada:
 
 ```mermaid
-graph LR;
+flowchart TD
     A[Cliente: Faz POST] --> B{API Principal: Recebe Requisição};
 
     B --> C{Validação};
