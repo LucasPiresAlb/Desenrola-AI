@@ -97,20 +97,13 @@ Siga os passos abaixo para rodar o projeto completo em sua máquina.
   # 2. Navegue para a pasta do projeto clonado
   cd Desenrola-AI
 
-  # 3. Instale as dependências da API Principal
+  # 3. Instale as dependências da API
   cd desenrola-ai-api
   npm install
-  
-  # 4. Em um NOVO terminal, instale as dependências da API de Notificação
-  cd ../notificacao-api 
-  npm install
-  
-  # 5. Inicie os dois servidores em seus respectivos terminais
-  # No terminal da API principal:
+
+  # 5. Inicie o  servidore em seus respectivo terminal
+  # No terminal da API:
   npm start
-  
-  # No terminal da API de notificação:
-  node server.js
   ```
 </details>
 
